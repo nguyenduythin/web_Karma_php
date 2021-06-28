@@ -1,0 +1,32 @@
+.tbody-cart>tr{
+    border-bottom: 1px solid #8080803b;
+    
+}
+
+.sale_count {
+    position: absolute;
+    z-index: 8;
+   
+    display: inline-block;
+    width: 53px;
+    height: 38px;
+    line-height: 38px;
+    top: 14px;
+  
+    text-align: center;
+    padding: 0;
+    background: #e42323;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 17px;
+}
+.name-pd{
+    white-space: nowrap; 
+    width: 255px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.btn-update{
+    top: 7px;
+    font-size: 17px !important;
+}
